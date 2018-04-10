@@ -1,0 +1,9 @@
+pip3 install --upgrade google-api-python-client
+pip3 install httplib2
+
+# for system builtin notification from .sh file (Linux)
+sudo apt-get install libnotify-bin
+
+
+note: To run properly you must change .py program to executable ($ chmod +x /path/to/file)
+note2: To download gdocs please ensure that you have a permission to download file.
