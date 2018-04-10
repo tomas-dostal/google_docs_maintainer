@@ -61,16 +61,22 @@ ids = { „1J_YafGKPBItGqJjxPBgJ-1sWDF2tmwIT0v2wClt2IB8", "Add e.g. here the Goo
 
 And here we go. Try to run the .py script just to see if everything goes well. You'll be asked to log into your Google account. 
 Later the code checks if your local version of your Google Docs is outdated (there is a newer version). If so, it starts a thread which downloads a PDF of your Google Docs. 
+
+
 ![Terminal output](https://github.com/tomas-dostal/google_docs_maintainer/blob/master/google_docs_maintainter_example.png)
+
+
 The PDF file is saved in the same directory as the script. You can make a software link to another location using following command (*nix only).
 
 ```sh
 $ ln -s /path/to/script/YOURFILE.PDF /your/desired/path/YOURFILE.PDF
 $ ls -l
 ```
-> Filename of a downloaded file is the same as the name of your Google Docs document. 
+> Note: Filename of a downloaded file is the same as the name of your Google Docs document. 
 
-> You should generate your own settings.yaml file (which is included only for testing purposes at the moment) for your use. You san do it 
+> Note_2: To download a Google docs file please ensure that you have a permission to download the file.
+
+> Note_3: You should generate your own settings.yaml file (which is included only for testing purposes at the moment) for your use. You can do it from [Google cloud platfrom](https://console.cloud.google.com/?hl=cs). 
 
 
 License: MIT
