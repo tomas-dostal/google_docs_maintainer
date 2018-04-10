@@ -10,8 +10,8 @@ You can choose between two versions of the code:
 
 | Version | 
 | ------ |
-| [automatic update](./tree/master/auto_v1.1) | 
-| [manual update](./tree/master/manual_v1.1) | 
+| [automatic update](https://github.com/tomas-dostal/google_docs_maintainer/tree/master/auto_v1.1) | 
+| [manual update](https://github.com/tomas-dostal/google_docs_maintainer/tree/master/manual_v1.1) | 
 
 
 ### Installation
